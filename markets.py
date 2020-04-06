@@ -17,4 +17,3 @@ class MarketIndex:
 
     def _setup(self):
         self.market_data.load_data_source()
-        data = self.market_data.seek(self.start_date)
